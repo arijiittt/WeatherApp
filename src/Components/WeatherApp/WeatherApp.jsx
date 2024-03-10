@@ -22,7 +22,26 @@ const WeatherApp = () => {
         <div className="weather-image">
             <img src={cloud} alt="" />
         </div>
+        <div className="weather-temp">24°C</div>
+        <div className="weather_location">Mohail</div>
+        <div className="datacontainer">
+            <div className="element">
+                <img src={humidity} alt="" className='icon'/>                    
+                <div className="data">
+                    <div className="humidity">64%</div>
+                    <div className="text">Humidity</div>
+                </div>      
+            </div>
+            <div className="element">
+                <img src={wind} alt="" className='icon'/>
+                <div className="data">
+                    <div className="wind">15 km/hr</div>
+                    <div className="text">Wind Speed</div>
+                </div>
+            </div>
+        </div>
     </div>
+    
   )
 }
 
